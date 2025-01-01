@@ -9,6 +9,13 @@ accountEmail = "Singhsiddhant1805@gmail.com"
 accountPassword = "2341"
 accountCity = "Bihar"
 
+/*
+
+prefer not to use var because 
+of issue in block scope and functional scope
+
+*/
+
 console.log(accountId);
 console.table([accountId, accountEmail, accountPassword, accountCity])
 
